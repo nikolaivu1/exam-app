@@ -17,6 +17,7 @@ export default function Login() {
   }
 
   return (
+    <div className="page">
     <form onSubmit={submit}>
       <h3>Login</h3>
       <input value={username} onChange={e => setUsername(e.target.value)} placeholder="Username" />
@@ -24,5 +25,6 @@ export default function Login() {
       <button>Login</button>
       {error && <div style={{color:"red"}}>{error}</div>}
     </form>
+      </div>
   )
 }
