@@ -28,8 +28,9 @@ export default function Posts() {
   }
 
   return (
-    <div>
-      <h3>Posts</h3>
+    <div className="page">
+      <div className="recipe-box">
+        <h2>🍳 Share Your Recipe</h2>
       <form onSubmit={addPost}>
         <input value={title} onChange={e => setTitle(e.target.value)} placeholder="Title" />
         <textarea value={body} onChange={e => setBody(e.target.value)} placeholder="Body" />
@@ -42,6 +43,7 @@ export default function Posts() {
           <button onClick={() => deletePost(p.id)}>Delete</button>
         </div>
       ))}
+     </div>
     </div>
   )
 }
