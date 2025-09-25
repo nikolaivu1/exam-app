@@ -1,8 +1,9 @@
 export default function Home() {
   return (
-    <div>
-      <h2>Здравейте</h2>
-      <p>This is the home page of the exam app.</p>
+    <div styleName="page">
+      <h2>Добре дошли</h2>
+      <p1>Тук можете да добавяте вашите рецепти в менюто Posts </p1>
     </div>
   )
 }
+
