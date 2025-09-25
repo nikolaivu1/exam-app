@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "alice",
+      "password": "password"
+    },
+    {
+      "id": "406e",
+      "username": "Ivanovvv",
+      "password": "daitemipari"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "ida": "2",
+      "title": "Hello world",
+      "body": "This is a post by Alice."
+    }
+  ]
+}
